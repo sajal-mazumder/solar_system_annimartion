@@ -21,7 +21,7 @@ body{
     align-items: center;
 }
 
-#naptune{
+#neptune{
     height: 800px;
     width: 800px;
     border-radius: 100%;
@@ -33,14 +33,14 @@ body{
     align-items: center;
 }
 
-#naptune>img{
+#neptune>img{
     /* position: relative; */
     height: 50px;
     width: 50px;
-    animation: naptune_rolling 75s linear infinite;
+    animation: neptune_rolling 75s linear infinite;
 }
 
-@keyframes naptune_rolling{
+@keyframes neptune_rolling{
     0%{
         transform: rotate(0deg) translate(400px) rotate(0deg);
     }
@@ -104,7 +104,7 @@ body{
     }
 }
 
-#juupiter{
+#jupiter{
     height: 550px;
     width: 550px;
     border-radius: 100%;
@@ -116,13 +116,13 @@ body{
     align-items: center;
 }
 
-#juupiter>img{
+#jupiter>img{
     height: 40px;
     width: 40px;
-    animation: juupiter_rolling 45s linear infinite;
+    animation: jupiter_rolling 45s linear infinite;
 }
 
-@keyframes juupiter_rolling{
+@keyframes jupiter_rolling{
     0%{
         transform: rotate(0deg) translate(275px) rotate(0deg);
     }
@@ -131,7 +131,7 @@ body{
     }
 }
 
-#saaturn{
+#saturn{
     height: 480px;
     width: 480px;
     border-radius: 100%;
@@ -143,13 +143,13 @@ body{
     align-items: center;
 }
 
-#saaturn>img{
+#saturn>img{
     height: 60px;
     width: 60px;
-    animation: saaturn_rolling 35s linear infinite;
+    animation: saturn_rolling 35s linear infinite;
 }
 
-@keyframes saaturn_rolling{
+@keyframes saturn_rolling{
     0%{
         transform: rotate(0deg) translate(235px) rotate(0deg);
     }
@@ -158,7 +158,7 @@ body{
     }
 }
 
-#eaarth{
+#earth{
     height: 400px;
     width: 400px;
     border-radius: 100%;
@@ -170,13 +170,13 @@ body{
     align-items: center;
 }
 
-#eaarth>img{
+#earth>img{
     height: 50px;
     width: 55px;
-    animation: eaarth_rolling 25s linear infinite;
+    animation: earth_rolling 25s linear infinite;
 }
 
-@keyframes eaarth_rolling{
+@keyframes earth_rolling{
     0%{
         transform: rotate(0deg) translate(200px) rotate(0deg);
     }
@@ -185,7 +185,7 @@ body{
     }
 }
 
-#marss{
+#mars{
     height: 300px;
     width: 300px;
     border-radius: 100%;
@@ -197,13 +197,13 @@ body{
     align-items: center;
 }
 
-#marss img{
+#mars img{
     height: 50px;
     width: 50px;
-    animation: marss_rolling 20s linear infinite;
+    animation: mars_rolling 20s linear infinite;
 }
 
-@keyframes marss_rolling{
+@keyframes mars_rolling{
     0%{
         transform: rotate(0deg) translate(150px) rotate(0deg);
     }
@@ -212,7 +212,7 @@ body{
     }
 }
 
-#marcury{
+#mercury{
     height: 200px;
     width: 200px;
     border-radius: 100%;
@@ -224,13 +224,13 @@ body{
     align-items: center;
 }
 
-#marcury img{
+#mercury img{
     height: 40px;
     width: 40px;
-    animation: marcury_rolling 18s linear infinite;
+    animation: mercury_rolling 18s linear infinite;
 }
 
-@keyframes marcury_rolling{
+@keyframes mercury_rolling{
     0%{
         transform: rotate(0deg) translate(100px) rotate(0deg);
     }
@@ -239,7 +239,7 @@ body{
     }
 }
 
-#sunn {
+#sun {
     position: absolute;
     height: 200px;
     width: 200px;
@@ -250,10 +250,80 @@ body{
     align-items: center;
 }
 
-#sunn>img {
+#sun>img {
     height: 500px;
     width: 500px;
     border-radius: 100%;   
     background-color: transparent;
     pointer-events: none;
 }
+
+/* end of copy from saifullah */
+
+/* start of farjana copy */
+
+/* .sun{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background:url("../rscs/sun.jpeg");
+    background-position: center;
+    box-shadow: 0 0 75px  rgb(241, 226, 14);
+    position: absolute
+    
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../rscs/galaxy.jpeg);
+}
+.earth{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    background-image: url(../rscs/earth.jpg);
+    position: relative;
+    background-position: center;
+    animation: earth-orbit 7s linear infinite;
+    box-shadow: 0 0 75px  rgb(48, 171, 242);
+}
+
+.earth::after{
+    content: "";
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    position: absolute;
+    background: url(../rscs/moon.jpg);
+    border: none;
+    background-position: center;
+    align-items: center;
+    animation: moon-orbit 3.5s linear infinite;
+    box-shadow: 0 0 45px  white;
+}
+@keyframes  earth-orbit{
+    from{
+        transform: rotate(0deg) translateX(150px) rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg) translateX(150px) rotate(-360deg);
+    }
+}
+
+@keyframes  moon-orbit{
+    from{
+        transform: rotate(0deg) translateX(75px) rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg) translateX(75px) rotate(-360deg);
+    }
+}
+
+@media (max-width:768px) {
+    .container{
+        flex-direction: column;
+    }
+} */
